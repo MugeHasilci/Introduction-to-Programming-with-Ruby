@@ -11,9 +11,9 @@ password = 'SecreT'
 
 loop do
 puts "Please enter user name:"
-username = gets.chomp.to_i
+username = gets.chomp
 puts "Please enter your password:"
-password = gets.chomp.to_i
+password = gets.chomp
 
 if username != "admin" || password != "SecreT"
   puts "Authorization failed!"
