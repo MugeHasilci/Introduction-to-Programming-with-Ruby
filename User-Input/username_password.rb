@@ -18,7 +18,7 @@ password = gets.chomp.to_i
 if username != "admin" || password != "SecreT"
   puts "Authorization failed!"
 end
-  break
+break
 end
 
 puts "Welcome!"
